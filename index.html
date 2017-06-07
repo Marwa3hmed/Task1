@@ -1,0 +1,369 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>PSD to Responsive Website</title>
+	<meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/StyleSheet.css" rel="stylesheet" />
+    <!--for icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container-fluid cont">
+
+        <nav class="navbar navbar-default">
+            <div class="container-fluid" id="nav_center">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand boldFont" href="#"><P class="whiteFont">Your Logo Here</P></a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><P class="whiteFont">Pages</P></a></li>
+                        <li><a href="#"><P class="whiteFont">Features</P></a></li>
+                        <li><a href="#"><P class="whiteFont">Services</P></a></li>
+                        <li><a href="#"><P class="whiteFont">Blog</P></a></li>
+                        <li><a href="#"><P class="whiteFont">Contact</P></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <div class="container">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="images/img1.PNG" alt="image1" style="width:100%;">
+                    </div>
+                    <div class="item">
+                        <img src="images/img1.PNG" alt="image2" style="width:100%;">
+                    </div>
+                    <div class="item">
+                        <img src="images/img1.PNG" alt="image3" style="width:100%;">
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+
+        <section>
+            <div class="container-fluid blackDiv text-center">
+                <div class="row">
+                    <div class="col-xs-12 whiteFont">
+                        <h1 class="boldFont">Create Your Own Genuine Web Masterpiece</h1>
+                        <p>Some text that represents your website style....</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="container-fluid whiteDiv text-center">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img src="images/research.png" class="img-responsive imgWhiteDiv" style="width:70%" alt="research Image">
+                        <h3 class="boldFont">Research</h3>
+                        <p>Some Text about research and some link have collection of images and some text with more details.</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="images/costomizable.png" class="img-responsive imgWhiteDiv" style="width:70%" alt="costomizable Image">
+                        <h3 class="fullyCostomizable">Fully Costomizable</h3>
+                        <p>Some Text about research and some link have collection of images and some text with more details.</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="images/cordination.png" class="img-responsive imgWhiteDiv" style="width:70%" alt="cordination Image">
+                        <h3 class="boldFont">Cordination</h3>
+                        <p>Some Text about research and some link have collection of images and some text with more details.</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="images/Test.png" class="img-responsive imgWhiteDiv" style="width:70%" alt="Test Image">
+                        <h3 class="boldFont">Test</h3>
+                        <p>Some Text about research and some link have collection of images and some text with more details.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="container-fluid bg-3 text-center LightBlueDiv">
+                <h1 class="boldFont">Let Them Know Why You're the Best</h1>
+                <p>Some text about Theme..</p>
+                <br /> <br /><br /><br />
+                <div class="row">
+                    <div class="col-lg-3">
+                        <img id="myImg1" src="images/website1.jpg" alt="Theme1" width="250" height="150">
+                    </div>
+                    <div class="col-lg-3">
+                        <img id="myImg2" src="images/website2.jpg" alt="Theme2" width="250" height="150">
+                    </div>
+                    <div class="col-lg-3">
+                        <img id="myImg3" src="images/website3.jpg" alt="Theme3" width="250" height="150">
+                    </div>
+                    <div class="col-lg-3">
+                        <img id="myImg4" src="images/website4.jpg" alt="Theme4" width="250" height="150">
+                    </div>
+                </div>
+            </div><br>
+        </section>
+
+        <!-- The Modal myImg1 -->
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+        <script>
+            // Get the modal
+            var modal = document.getElementById('myModal');
+
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById('myImg1');
+
+
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function () {
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+            }
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function () {
+                modal.style.display = "none";
+            }
+        </script>
+
+        <!-- The Modal myImg2 -->
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+        <script>
+            // Get the modal
+            var modal = document.getElementById('myModal');
+
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById('myImg2');
+
+
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function () {
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+            }
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function () {
+                modal.style.display = "none";
+            }
+        </script>
+
+        <!-- The Modal myImg3 -->
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+        <script>
+            // Get the modal
+            var modal = document.getElementById('myModal');
+
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById('myImg3');
+
+
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function () {
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+            }
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function () {
+                modal.style.display = "none";
+            }
+        </script>
+
+        <!-- The Modal myImg4 -->
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+        <script>
+            // Get the modal
+            var modal = document.getElementById('myModal');
+
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById('myImg4');
+
+
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function () {
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+            }
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function () {
+                modal.style.display = "none";
+            }
+        </script>
+
+
+        <section>
+            <div class="container-fluid whiteDiv text-center">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img src="images/Dexter.jpg" class="img-responsive imgWhiteDiv" style="width:70%" alt="research Image">
+                        <h3 class="boldFont">Dexter Gilbert</h3>
+                        <p>Some Text about research and some link have collection of images and some text with more details.</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="images/Mary.jpg" class="img-responsive imgWhiteDiv" style="width:70%" alt="costomizable Image">
+                        <h3 class="boldFont">Mary Collier</h3>
+                        <p>Some Text about research and some link have collection of images and some text with more details.</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="images/Stefan.png" class="img-responsive imgWhiteDiv" style="width:70%" alt="cordination Image">
+                        <h3 class="boldFont">Stefan Morrison</h3>
+                        <p>Some Text about research and some link have collection of images and some text with more details.</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="images/Bill.png" class="img-responsive imgWhiteDiv" style="width:70%" alt="Test Image">
+                        <h3 class="boldFont">Bill Smith</h3>
+                        <p>Some Text about research and some link have collection of images and some text with more details.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="container-fluid grayDiv text-center">
+                <div class="row">
+                    <div class="col-md-8">
+                        <video controls class="videoDiv">
+                            <source src="videos/video1.mp4" type="video/mp4">
+                            <source src="mov_bbb.ogg" type="video/ogg">
+                            Your browser does not support HTML5 video.
+                        </video>
+                    </div>
+                    <div class="col-md-4 textDiv">
+                        <h3 class="boldFont whiteFont">What Are You Waiting For?</h3>
+                        <h3 class="boldFont whiteFont">Start It Today!</h3>
+                        <p class="whiteFont">Some text related to the topic..............</p>
+                        <div class="btn btn-info">Find Out More</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-fluid whiteDiv text-center">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h1 class="boldFont">Beautiful Layouts</h1>
+                        <p>Some text related to the topic.........</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="images/logo1.gif" style="width:30%" alt="Logo1">
+                        <img src="images/logo2.png" style="width:30%" alt="Logo2">
+                        <img src="images/logo1.gif" style="width:30%" alt="Logo1">
+                        <img src="images/logo2.png" style="width:30%" alt="Logo2">
+                        <img src="images/logo1.gif" style="width:30%" alt="Logo1">
+                        <img src="images/logo2.png" style="width:30%" alt="Logo2">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="container-fluid grayDiv text-center">
+                <div class="row whiteFont">
+                    <div class="col-md-4">
+                        <h3 class="boldFont">Abous ut</h3>
+                        <p>Some Text about research and some link have collection of images and some text with more details</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3 class="boldFont">Get in Touch</h3>
+                        <p>Adress:  66 South Street</p>
+                        <p>Phone:   02-88 56 56 6</p>
+                        <p>Email:   yourName@yourCompany.com</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3 class="boldFont">Social Media</h3>
+                        <p>Some Texts and links have collection of images</p>
+                        <i class="fa fa-google-plus-official" style="font-size:36px;color:rgb(128, 191, 255)"></i>
+                        <i class="fa fa-whatsapp" style="font-size:36px;color:rgb(128, 191, 255)"></i>
+                        <i class="fa fa-telegram" style="font-size:36px;color:rgb(128, 191, 255)"></i>
+                        <i class="fa fa-github" style="font-size:36px;color:rgb(128, 191, 255)"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="container-fluid text-center blueFooter">
+         <br />
+         <p class="whiteFont">Copyright &copy; Marwa Ahmed</p>
+        </footer>
+    </div>
+
+
+
+
+
+
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+</body>
+
+
+
+</html>
